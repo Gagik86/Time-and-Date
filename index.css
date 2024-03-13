@@ -1,0 +1,60 @@
+.body {
+    background-color: rgb(184, 184, 184);
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    background-color: rgb(174, 228, 228);
+    border-radius: 20px;
+    color: rgb(123, 108, 138);
+}
+
+h3:hover {
+    font-size: 30px;
+    box-shadow: 0 0 5px rgb(0, 81, 255), 0 0 25px rgb(0, 81, 255),
+        0 0 50px rgb(0, 110, 255), 0 0 100px rgb(0, 89, 255),
+        0 0 200px rgb(0, 102, 255);
+}
+
+.container {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.fullBtn {
+    background-color: rgb(76, 76, 224);
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.dataBtn {
+    background-color: rgb(101, 224, 76);
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.timeBtn {
+    background-color: rgb(224, 76, 76);
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 20px;
+    cursor: pointer;
+}
